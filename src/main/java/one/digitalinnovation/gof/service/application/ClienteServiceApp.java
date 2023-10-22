@@ -7,12 +7,14 @@ import one.digitalinnovation.gof.model.EnderecoRepository;
 import one.digitalinnovation.gof.service.ClienteService;
 import one.digitalinnovation.gof.service.ViaCepService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
 // Strategy: Implementar os métodos definidos na interface.
 // Facade: Abstrair integrações com subsistemas, provendo uma interface simples.
 
+@Service
 public class ClienteServiceApp implements ClienteService {
 
     // Singleton: Injetar os componentes do Spring com @Autowired.

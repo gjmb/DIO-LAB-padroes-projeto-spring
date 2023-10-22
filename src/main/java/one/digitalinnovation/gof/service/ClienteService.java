@@ -2,6 +2,7 @@ package one.digitalinnovation.gof.service;
 
 import one.digitalinnovation.gof.model.Cliente;
 
+
 // Interface que define o padrão Strategy no domínio de cliente
 
 public interface ClienteService {
